@@ -1,0 +1,89 @@
+1. Create a custom class named Circle with the following specifications:
+
+	Attributes:
+		radius
+
+	Ensure encapsulation for the field.
+		Condition:
+			The radius cannot be set to a negative or zero value.
+
+	Add a constructor that allows the user to set the field during object creation.
+
+	Actions:
+		calcArea(): Calculates and returns the area of the circle object.
+		calcPerimeter(): Calculates and returns the perimeter of the circle object.
+		toString(): Displays the radius, area, and perimeter of the circle when the object is printed.
+
+	Create another class named CircleClients, create multiple circle objects, and test each function of the circle object.
+
+
+
+2. Create a custom class named Rectangle with the following specifications:
+
+	Attributes:
+		width
+		length
+
+	Ensure encapsulation for both fields.
+		Conditions:
+			The width and length cannot be set to negative or zero values.
+
+	Add a constructor that allows the user to set both fields during object creation.
+
+	Actions:
+		calcArea(): Calculates and returns the area of the rectangle object.
+		calcPerimeter(): Calculates and returns the perimeter of the rectangle object.
+		toString(): Displays the width, length, area, and perimeter of the rectangle when the object is printed.
+
+	Create another class named RectangleClients, create multiple rectangle objects, and test each function of the rectangle object.
+
+
+
+3. Create a custom class named Item with the following specifications:
+
+	Attributes:
+		name
+		unitPrice
+		quantity
+
+	Ensure encapsulation for all fields.
+		Conditions:
+			The name cannot be empty or blank.
+			The name cannot contain any special characters other than space.
+			The name must start with letters.
+			The unitPrice cannot be negative.
+			The quantity cannot be negative.
+
+	Add a constructor that enables the user to set all fields during object creation.
+
+	Actions:
+		calcCost(): Returns the total cost.
+		toString(): Displays the name, unit price, quantity, and total cost calculated by calcCost() when the object is printed.
+
+	Create another class named ItemClients, create multiple item objects, and test each function of the item object.
+
+
+
+4. Create a custom class named Candy with the following specifications:
+
+	Attributes:
+		brand
+		quantity
+		price
+		hasPeanuts
+
+	Ensure encapsulation for all fields.
+		Conditions:
+			The price of candy cannot be set to a negative value.
+			The quantity of candy cannot be set to zero or a negative value.
+
+	Add a constructor that allows the user to set all fields during object creation.
+
+	Actions:
+		toString(): Displays the brand, unit price, and quantity when the object is printed. If the price is zero, display "free" instead of 0.
+
+	Create another class named CandyClients, create multiple candy objects, and test each function of the candy object.
+
+
+
+
