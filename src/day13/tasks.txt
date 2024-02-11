@@ -1,0 +1,190 @@
+Phone Task Requirements:
+1. Create a custom class named 'IPhone' with these specifications:
+   Attributes:
+       - brand: String
+       - model: String
+       - size: String
+       - price: double
+       - color: String
+
+   Encapsulation:
+       - All fields must be private with getters and setters.
+       Conditions for Encapsulation:
+           - The 'brand', 'model', and 'color' must not be null, empty, or blank.
+           - The 'price' must be greater than zero.
+
+   Constructor:
+       - Add a constructor to initialize all fields.
+
+   Actions:
+       - call(phoneNumber): Display "calling the number [phoneNumber]".
+       - text(phoneNumber): Display "texting to the number [phoneNumber]".
+       - faceTime(phoneNumber): Display "facetiming with the number [phoneNumber]".
+       - toString(): Prints the information of the IPhone object.
+
+2. Create a class named 'Samsung' with these specifications:
+   Attributes:
+       - Same as IPhone.
+
+   Encapsulation:
+       - Same conditions as IPhone.
+
+   Constructor:
+       - Same as IPhone.
+
+   Actions:
+       - call(phoneNumber): Display "calling the number [phoneNumber]".
+       - text(phoneNumber): Display "texting to the number [phoneNumber]".
+       - toString(): Prints the information of the Samsung object.
+
+3. Create a class named 'Nokia' with these specifications:
+   Attributes:
+       - Same as IPhone.
+
+   Encapsulation:
+       - Same conditions as IPhone.
+
+   Constructor:
+       - Same as IPhone.
+
+   Actions:
+       - call(phoneNumber): Display "calling the number [phoneNumber]".
+       - text(phoneNumber): Display "texting to the number [phoneNumber]".
+       - toString(): Prints the information of the Nokia object.
+
+4. Create a class named "PhoneClients":
+   - Create multiple objects representing different phones.
+   - Test the methods and variables of each object.
+
+--------------------------------------------------------------------
+
+State Task Requirements:
+1. Create a class named 'State' with the following specifications:
+   Attributes:
+       - name: String
+       - abbreviation: String
+       - politicalParty: String
+       - Governor: String
+       - senator: String
+       - population: int
+
+   Encapsulation Requirements:
+       - Ensure attributes are private with getters and setters.
+       - Conditions for Encapsulation:
+           - 'name', 'abbreviation', 'politicalParty', 'Governor', and 'senator' must not be null, empty, or blank.
+           - 'population' must be greater than zero.
+
+   Constructor:
+       - Add a constructor to initialize all fields.
+
+   Methods:
+       - toString(): Prints the information of the State object.
+
+2. Create the following subclasses of the State class:
+      - Virginia
+      - California
+      - Texas
+      - Florida
+   - Add any additional fields and methods as necessary.
+
+3. Create a class named 'StateClients':
+   - Create multiple objects representing different states.
+   - Test the methods and variables of each object.
+
+--------------------------------------------------------------------
+
+Student Task Requirements:
+1. Create a class named "Student" with the following specifications:
+   Attributes:
+       - name: String
+       - age: int
+       - gender: String
+
+   Encapsulation:
+       - Same as previous tasks.
+
+   Constructor:
+       - Same as previous tasks.
+
+   Actions:
+       - toString(): Prints the information of the Student object.
+
+2. Create a subclass named "Student" with the following specifications:
+   Attributes:
+       - studentId: String
+       - fieldOfStudy: String
+       - grade: char
+       - schoolName: String
+
+   Encapsulation:
+       - Same as previous tasks.
+
+   Actions:
+       - study(): Displays a message stating the student's name and school.
+       - toString(): Prints the information of the Student object (including all attributes).
+
+3. Create the following subclasses of the Student class:
+   3.1 GraduateStudent:
+       - Override the study method.
+       - Add any additional fields and methods as necessary.
+
+   3.2 UndergraduateStudent:
+       - Same as GraduateStudent.
+
+   3.3 CydeoStudent:
+       - Additional Attributes:
+           - batchNumber: int
+           - groupNumber: int
+           - programmingLanguage: String
+       - Encapsulation:
+           - Same as previous tasks.
+       - Constructor:
+           - Same as previous tasks.
+       - Actions:
+           - Override the study method.
+           - Override the toString method.
+
+4. Create a class named "StudentClients":
+   - Create multiple objects representing different students.
+   - Test the methods and attributes of each object.
+
+--------------------------------------------------------------------
+
+Employee Task Requirements:
+1. Create a subclass of Person named "Employee" with the following specifications:
+   Attributes:
+       - employeeId: String
+       - jobTitle: String
+       - salary: double
+       - companyName: String
+
+   Encapsulation:
+       - Same as previous tasks.
+
+   Constructor:
+       - Same as previous tasks.
+
+   Methods:
+       - work(): Displays the employee's job title and name.
+       - toString(): Returns a string representation of the Employee object.
+
+2. Create the following subclasses of Employee:
+   2.1 Tester:
+       - work(): Displays "[jobTitle] [name] is testing".
+
+   2.2 Developer:
+       - Extra Variable:
+           - programmingLanguage: String
+       - work(): Displays "[jobTitle] [name] is coding in [programmingLanguage]".
+
+   2.3 Teacher:
+       - work(): Displays "[name] is teaching".
+
+   2.4 Driver:
+       - work(): Displays "[name] is driving".
+
+   - Add any additional fields or methods as necessary.
+
+3. Create a class named "EmployeeClients":
+   - Create multiple objects representing different employees.
+   - Test the methods and attributes of each object.
