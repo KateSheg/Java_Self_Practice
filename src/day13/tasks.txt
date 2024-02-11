@@ -91,7 +91,7 @@ State Task Requirements:
    - Create multiple objects representing different states.
    - Test the methods and variables of each object.
 
---------------------------------------------------------------------
+---------------------77777------------------------------------------------------
 
 Student Task Requirements:
 1. Create a class named "Student" with the following specifications:
