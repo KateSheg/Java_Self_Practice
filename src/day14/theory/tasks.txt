@@ -1,0 +1,151 @@
+Car Task Requirements:
+1. Create an Abstract Class Named 'Car':
+    - Variables:
+        - final make
+        - final model
+        - final year
+        - price
+        - color
+    - Encapsulate all fields.
+    - Constructor: Initializes all fields.
+    - Conditions for setting fields:
+        - make, model, color must not be null or empty.
+        - year must not be less than 1886.
+        - price must not be negative.
+    - Abstract Methods:
+        - start()
+        - drive()
+    - Non-Abstract Methods:
+        - stop()
+        - toString()
+
+2. Create an Interface Named 'AutoPark':
+    - Variable:
+        - hasAutoPark
+    - Abstract Method:
+        - autoPark()
+
+3. Create a Child Interface of AutoPark Named 'AutoPilot':
+    - Note: Use the 'extends' keyword for inheritance.
+    - Variables:
+        - hasAutoPilot
+    - Abstract Method:
+        - selfDrive()
+
+4. Create an Interface Named 'Flyable':
+    - Variable:
+        - canFly
+    - Abstract Method:
+        - fly()
+
+5. Create a Subclass of Car Named 'Toyota'.
+6. Create a Subclass of Car Named 'Honda'.
+7. Create a Subclass of Car Named 'BMW'.
+8. Create two Subclasses of Car ('Audi' and 'Mercedes') that Implement the AutoPark Interface.
+9. Create two Subclasses of Car ('Tesla' and 'Nio') that Implement both AutoPark and AutoPilot Interfaces.
+10. Create a Subclass of Car Named 'CydeoCar' that Implements AutoPark, AutoPilot, and Flyable Interfaces.
+11. Create a Class Named 'CarClients':
+    - Instantiate an object from each concrete class.
+    - Test all functions of each object.
+    - Analyze the relationships between the classes.
+
+Device Task Requirements:
+
+1. Create an Abstract Class Named 'Device':
+    - Variables:
+        - final brand
+        - final model
+        - price
+        - color
+        - final size
+        - hasBattery
+        - hasPowerButton
+    - Encapsulate all fields.
+    - Constructor: Initializes all fields.
+    - Conditions:
+        - brand, model, color, and size must not be null or empty.
+        - price must be positive.
+    - Abstract Methods:
+        - turnOn()
+        - turnOff()
+    - Non-Abstract Method:
+        - toString()
+
+2. Create a Child Abstract Class of Device Named 'Phone':
+    - Extra Non-Abstract Methods:
+        - call(long phoneNum)
+        - text(long phoneNum)
+        - toString()
+
+3. Create a Child Abstract Class of Device Named 'Computer':
+    - Add extra methods as needed.
+
+4. Create an Interface Named 'Downloadable':
+    - Abstract Method:
+        - downloadApp()
+
+5. Create a Child Interface of Downloadable Named 'AndroidApps':
+    - Variables:
+        - AppStoreName
+        - OS
+
+6. Create a Child Interface of Downloadable Named 'AppleApps':
+    - Variables:
+        - AppStoreName
+        - OS
+
+7. Create the Following Subclasses of Phone:
+    - 'Iphone':
+        - Extends Phone class.
+        - Implements Downloadable & AppleApps interfaces.
+    - 'Samsung':
+        - Extends Phone class.
+        - Implements Downloadable & AndroidApps interfaces.
+    - 'Google':
+        - Extends Phone class.
+        - Implements Downloadable & AndroidApps interfaces.
+
+8. Create the Following Subclasses of Computer:
+    - 'PersonalComputer':
+        - Desktop
+        - Laptop
+
+9. Create a Class Named 'DeviceShop':
+    - Instantiate an object from each concrete class.
+    - Test all functions of each object.
+    - Analyze the relationships between the classes.
+
+-----------------------------------------------------------------------
+
+
+CarShop Class Task:
+1. Create a Class Named 'CarShop':
+    - Given an array of Car objects:
+            Car[] cars = {
+                new Honda("Pilot","White", 2010, 25000),
+                new Audi("Q6", "Red",2014, 32000),
+                new Honda("Accord", "White",2011, 20000  ),
+                new Audi("Q4", "Blue", 2015, 33000),
+                new Audi("A7", "Black",2019, 35000),
+                new Audi("Q8", "White",2018, 40000),
+                new Audi("Q5", "Purple",2009, 30000),
+                new Audi("A4", "Black", 2011, 30000),
+                new Honda("Civic", "Red",2018, 30000),
+                new Honda("CR-V", "Red", 2012, 23000),
+                new Honda("HR-V", "Blue",2019, 35000),
+                new Tesla("Model 3", "White", 2015, 45000),
+                new Tesla("Model Y", "Black", 2017, 65000),
+                new Tesla("Model X", "White", 2016, 48000),
+                new Tesla("Model X", "Blue",2014, 48000),
+            };
+
+    - Tasks:
+        1.2. Display all cars eligible for recall:
+            - Honda: Years 2010 to 2011
+            - Audi: Years 2015 to 2019
+            - Tesla: Years 2015 to 2016
+        1.3. Display the car with the highest price.
+        1.4. Display the car with the lowest price.
+        1.5. Create an ArrayList of Tesla named 'teslaCars' and store all Tesla cars from the cars array.
+
+
