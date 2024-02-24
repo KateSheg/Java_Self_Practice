@@ -1,0 +1,68 @@
+1. Create a class named RemoveDuplicates and write a program that takes a list of integers, removes any duplicate values, and returns the elements in sorted order.
+
+         Example:
+            {20, 15, 10, 20, 30, 10, 20, 15, 0}
+
+         Output:
+            {0, 10, 15, 20, 30}
+
+
+2. Create a class named MergeLists and write a program that merges two given lists of integers into a third list. Ensure that the third list contains no duplicate elements and maintains the original order of elements from the input lists.
+
+         Example:
+            list1 = {10, 20, 30, 40, 50, 60, 70}
+            list2 = {30, 40, 50, 60, 70, 80, 90, 100}
+
+         Output:
+            list3 = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+
+
+3. Create a class named CommonElements and write a program that identifies the common elements in two given sets of integers and returns a third set containing these common elements.
+
+         Example:
+            set1 = {10, 8, 11, 20, 5, 0}
+            set2 = {30, 0, 20, 40, 50, 10, 60}
+
+         Output:
+            set3 = {0, 10, 20}
+
+
+4. Create a class named DifferenceBetweenTwoSets and write a program that calculates the difference between two sets of integers (elements in the first set but not in the second) and displays the result.
+
+         Example:
+            Set1 = {1, 2, 3, 5}
+            Set2 = {2, 3, 4}
+
+         Output:
+            {1, 5}
+
+
+5. Create a class named Anagram and write a program that checks if two strings are anagrams of each other, considering only the distinct characters in each string (ignoring duplicates).
+
+         Example1:
+            str1 = "abcd"
+            str2 = "ccddabaa"
+
+         Output:
+            true
+
+
+         Example2:
+            str1 = "xyze"
+            str2 = "xyzd"
+
+         Output:
+            false
+
+
+6. Create a class named RemovePalindromes and write a program that removes all palindrome strings from a given list of strings. The removal should be performed without using the removeIf method.
+
+         Example:
+            list = {"Java", "Python", "Cydeo", "Car", "Level", "civic", "radar", "kayak",
+                     "reviver", "racecar", "madam"}
+
+         Output:
+            {"Java", "Python", "Cydeo", "Car"}
+
+
+
