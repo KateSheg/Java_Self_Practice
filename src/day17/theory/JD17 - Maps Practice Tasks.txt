@@ -1,0 +1,53 @@
+1. Create a class named MultiplyOdds and write a program that takes a map with characters as keys
+and integers as values. The program will iterate through the map and, for each entry where the value
+is an odd number, it will multiply this value by two.
+
+         Example:
+               map = {'a'=1, 'b'=2, 'c'=3, 'd'=4, 'e'=5}
+
+         Output:
+            {'a'=2, 'b'=2, 'c'=6, 'd'=4, 'e'=10}
+
+
+2. Create a class named InvertMap and write a program that returns a new map which is the 
+inverted version of the provided map, meaning the keys become values and the values become keys.
+It is assumed that there are no duplicate values in the original map.
+
+         Example:
+               map = {1="a", 2="b", 3="c"}
+
+         Output:
+               {"a"=1, "b"=2, "c"=3}
+
+
+3. Create a class named MergeMaps and write a program that merge two given maps.
+If a key is present in both maps, add their corresponding values together.
+
+         Example:
+               map1 = {'A'=10, 'B'=20}
+               map2 = {'B'=30, 'C'=40}
+
+         Output:
+               {'A'=10, 'B'=50, 'C'=40}
+
+
+4. Create a class named FrequencyOfCharacters and write a program that returns the frequency of each 
+character in a given string as a map, without using nested loops.
+         Example:
+               string = "bbcccaaaaa"
+
+         Output:
+               {b=2, c=3, a=5}
+
+
+5. Create a class named UniqueCharacters and write a program that returns the unique characters from a given
+string as a map, with each character's frequency as the value. This should be done without using nested loops.
+
+         Example:
+               string = "aabcccdeeeef"
+
+         Output:
+               {b=1, d=1, f=1}
+
+
+
